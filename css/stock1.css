@@ -1,0 +1,75 @@
+
+body{
+background-image: url(https://www.thestatesman.com/wp-content/uploads/2022/08/iStock-900144946.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+.container-fulid marquee{
+
+    color: red;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+
+}
+
+.formdiv{
+
+    /* border: 1px solid red; */
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+    }
+
+   .container-fulid h1{
+color: red !important;
+
+    }
+    .formdiv form input{
+    
+        border: 2px solid black;
+        padding: 1rem;
+        font-size: 1.2rem;
+        background-color: transparent;
+        border-radius: 10px;
+        color: initial;
+        font-weight: bold;
+        margin: 1rem;
+        text-align: center;
+        width: 25rem;
+    
+    }
+      .submit{
+    
+        width: 95%;
+        transition: all ease .5s;
+    }
+    .submit:hover{
+    
+        background-color: black;
+        color: white;
+    }
+    
+    .navbar-brand{ 
+    
+        font-size: 30px;
+        font-weight: bolder;
+        color: white !important;
+    }
+
+    .navbar-nav{
+
+        align-items: center;
+        margin-left: 400px;
+        font-size: 20px;
+    }
+    
+    .navbar .nav-link:hover{
+        
+        background-color: orange;
+        border-radius: 10px;
+    }
